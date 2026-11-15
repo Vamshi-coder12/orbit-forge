@@ -1,0 +1,156 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: site
+    label: Website Content
+    type: file
+    path: src/content/site.json
+    format: json
+    fields:
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - name: eyebrow
+            label: Eyebrow
+            type: string
+          - name: hello
+            label: Hello text
+            type: string
+          - name: title
+            label: Main title
+            type: string
+          - name: description
+            label: Description
+            type: text
+          - name: primaryCta
+            label: Primary button
+            type: string
+          - name: secondaryCta
+            label: Secondary button
+            type: string
+      - name: launch
+        label: Launch Screen
+        type: object
+        fields:
+          - name: label
+            type: string
+          - name: words
+            label: Split-flap words
+            type: string
+            list: true
+          - name: message
+            type: string
+      - name: antigravity
+        label: Antigravity Section
+        type: object
+        fields:
+          - name: label
+            type: string
+          - name: heading
+            type: string
+          - name: highlight
+            type: string
+          - name: description
+            type: text
+      - name: carousel
+        label: Carousel
+        type: object
+        fields:
+          - name: label
+            type: string
+      - name: about
+        label: About
+        type: object
+        fields:
+          - name: label
+            type: string
+          - name: heading
+            type: string
+          - name: highlight
+            type: string
+          - name: body
+            type: rich-text
+      - name: services
+        label: Services
+        type: object
+        fields:
+          - name: label
+            type: string
+          - name: items
+            label: Service cards
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{title}"
+            fields:
+              - name: number
+                type: string
+              - name: title
+                type: string
+              - name: description
+                type: text
+              - name: linkText
+                type: string
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - name: label
+            type: string
+          - name: heading
+            type: string
+          - name: highlight
+            type: string
+          - name: email
+            type: string
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - name: copyright
+            type: string
+          - name: tagline
+            type: string
+      - name: navigation
+        label: Navigation
+        type: object
+        fields:
+          - name: items
+            label: Menu items
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+            fields:
+              - name: label
+                type: string
+              - name: ariaLabel
+                type: string
+              - name: link
+                type: string
+          - name: socials
+            label: Social links
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{label}"
+            fields:
+              - name: label
+                type: string
+              - name: link
+                type: string
+
+settings:
+  content:
+    merge: true
+  commit:
+    templates:
+      update: "Update ORBIT_FORGE content: {path}"
+      create: "Create ORBIT_FORGE content: {path}"
+      delete: "Delete ORBIT_FORGE content: {path}"

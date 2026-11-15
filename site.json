@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "eyebrow": "NEXT-GEN DIGITAL SYSTEMS",
+    "hello": "Hello!",
+    "title": "ORDBIT FORGE",
+    "description": "We forge interfaces, products and digital experiences where technology meets imagination.",
+    "primaryCta": "GET STARTED ↗",
+    "secondaryCta": "EXPLORE ORBIT_FORGE ↓"
+  },
+  "launch": {
+    "label": "PLAYER HANDSHAKE / 01",
+    "words": ["LAUNCH READY", "SYNC ONLINE", "SIGNAL LIVE"],
+    "message": "PLAYER SYSTEMS ARMED. ENTER THE FORGE."
+  },
+  "antigravity": {
+    "label": "FIELD_01 / ANTIGRAVITY",
+    "heading": "MAKE THE IMPOSSIBLE",
+    "highlight": "FEEL INEVITABLE.",
+    "description": "Particle fields, motion systems and spatial interfaces engineered into one cohesive digital language."
+  },
+  "carousel": {
+    "label": "WEBGAME / SLIDING BARS"
+  },
+  "about": {
+    "label": "ABOUT / 02",
+    "heading": "FORGED FOR",
+    "highlight": "WHAT'S NEXT.",
+    "body": "ORBIT_FORGE is a fictional digital studio concept built around precision, motion and experimental technology. Every surface is designed to feel alive without sacrificing clarity."
+  },
+  "services": {
+    "label": "CAPABILITIES / 03",
+    "items": [
+      {"number":"01","title":"Creative Engineering","description":"Strategy, design and front-end craft fused into experiences with a distinct point of view.","linkText":"DISCOVER ↗"},
+      {"number":"02","title":"Immersive Interfaces","description":"Strategy, design and front-end craft fused into experiences with a distinct point of view.","linkText":"DISCOVER ↗"},
+      {"number":"03","title":"Motion Systems","description":"Strategy, design and front-end craft fused into experiences with a distinct point of view.","linkText":"DISCOVER ↗"}
+    ]
+  },
+  "contact": {
+    "label": "CONTACT / 04",
+    "heading": "LET'S FORGE",
+    "highlight": "THE NEXT ORBIT.",
+    "email": "hello@orbitforge.dev"
+  },
+  "footer": {
+    "copyright": "© 2026 ORBIT_FORGE",
+    "tagline": "BUILT BEYOND BOUNDARIES"
+  },
+  "navigation": {
+    "items": [
+      {"label":"Home","ariaLabel":"Go to home page","link":"#home"},
+      {"label":"About","ariaLabel":"Learn about us","link":"#about"},
+      {"label":"Services","ariaLabel":"View our services","link":"#services"},
+      {"label":"Contact","ariaLabel":"Get in touch","link":"#contact"}
+    ],
+    "socials": [
+      {"label":"Twitter","link":"https://twitter.com"},
+      {"label":"GitHub","link":"https://github.com"},
+      {"label":"LinkedIn","link":"https://linkedin.com"}
+    ]
+  }
+}
