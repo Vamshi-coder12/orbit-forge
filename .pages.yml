@@ -1,0 +1,67 @@
+media:
+  input: public/images
+  output: /images
+
+content:
+  - name: site
+    label: Site Content
+    type: file
+    path: src/content/site.json
+    format: json
+    fields:
+      - name: hero
+        label: Hero
+        type: object
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: subtitle
+            label: Subtitle
+            type: text
+
+      - name: launch
+        label: Launch
+        type: object
+        fields:
+          - name: text
+            label: Text
+            type: string
+
+      - name: about
+        label: About
+        type: object
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: description
+            label: Description
+            type: text
+
+      - name: services
+        label: Services
+        type: object
+        fields:
+          - name: title
+            label: Title
+            type: string
+          - name: description
+            label: Description
+            type: text
+
+      - name: contact
+        label: Contact
+        type: object
+        fields:
+          - name: email
+            label: Email
+            type: string
+
+      - name: footer
+        label: Footer
+        type: object
+        fields:
+          - name: text
+            label: Text
+            type: string
